@@ -52,8 +52,10 @@ class FireGento_PdfPayPalPlus_Model_Observer
         /** @var Iways_PayPalPlus_Block_Payment_Info $paymentBlock */
         $paymentBlock = Mage::helper('payment')->getInfoBlock($order->getPayment());
         $paymentText  = $paymentBlock->toPdf();
-        $paymentText  = str_replace('{{pdf_row_separator}}', '', $paymentText);
-        $notes[]      = $paymentText;
+        $lines        = explode('{{pdf_row_separator}}', $paymentText);
+        foreach ($lines as $line) {
+            $notes[] = $line;
+        }
 
         $result->setNotes($notes);
 
