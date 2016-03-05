@@ -42,7 +42,7 @@ class FireGento_PdfPayPalPlus_Model_Observer
         $order = $observer->getOrder();
 
         $paymentMethod = $order->getPayment()->getMethod();
-        if ($paymentMethod->getCode != Iways_PayPalPlus_Model_Payment::METHOD_CODE) {
+        if ($paymentMethod->getCode() != Iways_PayPalPlus_Model_Payment::METHOD_CODE) {
             return $this;
         }
 
