@@ -1,0 +1,13 @@
+{
+  "name": "firegento/pdf-paypalplus",
+  "license": ["GPL-3.0"],
+  "type": "magento-module",
+  "description": "FireGento Pdf PayPalPlus adds the detailed PayPalPlus payment information on the FireGento PDF invoices.",
+  "homepage": "https://github.com/firegento/firegento-pdf-paypalplus",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "Magento composer installer (or a replacement) is needed to install this packages"
+  },
+  "require": {
+    "firegento/pdf": "1.*"
+  }
+}

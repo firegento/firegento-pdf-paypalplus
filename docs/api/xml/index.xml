@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/magento192/.modman/firegento-pdf-paypalplus/src">
+  <namespace name="">
+    <class name="FireGento_PdfPayPalPlus_Model_Observer" src="app/code/community/FireGento/PdfPayPalPlus/Model/Observer.php" description="Adds the detailed PayPalPlus payment information in the comments section of the FireGento PDF invoices." xml="classes/FireGento_PdfPayPalPlus_Model_Observer.xml"/>
+  </namespace>
+</index>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="FireGento_PdfPayPalPlus_Model_Observer" namespace="" name="FireGento_PdfPayPalPlus_Model_Observer" abstract="false" final="false" start="29" end="63">
+  <file path="/var/www/magento192/.modman/firegento-pdf-paypalplus/src/app/code/community/FireGento/PdfPayPalPlus/Model" file="Observer.php" realpath="/var/www/magento192/.modman/firegento-pdf-paypalplus/src/app/code/community/FireGento/PdfPayPalPlus/Model/Observer.php" size="2127" time="2016-03-05T13:17:43+00:00" unixtime="1457183863" sha1="3d7996266ba1c18909b756e6d110086788d9f455" relative="app/code/community/FireGento/PdfPayPalPlus/Model/Observer.php"/>
+  <docblock>
+    <description compact="Adds the detailed PayPalPlus payment information in the comments section of the FireGento PDF invoices."/>
+    <category value="FireGento"/>
+    <package value="FireGento_PdfPayPalPlus"/>
+    <author value="FireGento Team &lt;team@firegento.com&gt;"/>
+  </docblock>
+  <method name="firegentoPdfInvoiceInsertNote" start="39" end="61" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Adds the detailed PayPalPlus payment information in the comments section of the FireGento PDF invoices."/>
+      <param type="object" variable="$observer">
+        <type full="Varien_Event_Observer" namespace="" name="Varien_Event_Observer"/>
+      </param>
+      <return type="object">
+        <type full="$this" namespace="" name="$this"/>
+      </return>
+    </docblock>
+    <parameter name="observer" byreference="false" type="object">
+      <type full="Varien_Event_Observer" namespace="" name="Varien_Event_Observer"/>
+    </parameter>
+  </method>
+</class>

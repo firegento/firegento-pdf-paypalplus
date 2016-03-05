@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/var/www/magento192/.modman/firegento-pdf-paypalplus/src">
+    <dir name="app">
+      <dir name="code">
+        <dir name="community">
+          <dir name="FireGento">
+            <dir name="PdfPayPalPlus">
+              <dir name="Model">
+                <file name="Observer.php" size="2127" time="2016-03-05T13:17:43+00:00" unixtime="1457183863" sha1="3d7996266ba1c18909b756e6d110086788d9f455" xml="tokens/app/code/community/FireGento/PdfPayPalPlus/Model/Observer.php.xml"/>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </dir>
+    </dir>
+  </dir>
+</source>
