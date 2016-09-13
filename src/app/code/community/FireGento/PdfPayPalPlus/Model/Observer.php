@@ -54,7 +54,10 @@ class FireGento_PdfPayPalPlus_Model_Observer
         $paymentText  = $paymentBlock->toPdf();
         $lines        = explode('{{pdf_row_separator}}', $paymentText);
         foreach ($lines as $line) {
-            $notes[] = $line;
+            $line = trim($line);
+            if ($line != '') {
+                $notes[] = $line;
+            }
         }
 
         $result->setNotes($notes);
