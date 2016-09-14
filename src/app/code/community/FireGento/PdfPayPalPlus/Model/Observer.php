@@ -57,6 +57,10 @@ class FireGento_PdfPayPalPlus_Model_Observer
             $line = trim($line);
             if ($line != '') {
                 $notes[] = $line;
+            } else {
+                // the PPP line contains a line break, which then leads to a double line break in the PDF
+                // so we insert an element with a whitespace, which results in a single line break
+                $notes[] = ' ';
             }
         }
 
