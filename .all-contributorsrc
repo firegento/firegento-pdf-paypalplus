@@ -1,0 +1,42 @@
+{
+  "projectName": "firegento-pdf-paypalplus",
+  "projectOwner": "firegento",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "therouv",
+      "name": "Rouven Alexander Rieker",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/393419?v=4",
+      "profile": "https://rouven.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sprankhub",
+      "name": "Simon Sprankel",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/930199?v=4",
+      "profile": "https://www.simonsprankel.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kkrieger85",
+      "name": "Kevin Krieger",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4435523?v=4",
+      "profile": "https://github.com/kkrieger85",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
