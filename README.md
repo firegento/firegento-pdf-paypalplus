@@ -1,23 +1,24 @@
-FireGento PDF PayPalPlus
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-========================
+
+# FireGento PDF PayPalPlus
+
 FireGento Pdf PayPalPlus adds the detailed PayPalPlus payment information on the FireGento PDF invoices.
 
-Facts
------
+## Facts
+
 - version: 1.0.0
 - extension key: FireGento_PdfPayPalPlus
 - [extension on GitHub](https://github.com/firegento/firegento-pdf-paypalplus)
 - [direct download link](https://github.com/firegento/firegento-pdf-paypalplus/archive/master.zip)
 
-Description
------------
+## Description
+
 FireGento Pdf PayPalPlus adds the detailed PayPalPlus payment information on the FireGento PDF invoices.
 
-Requirements
-------------
+## Requirements
+
 - PHP >= 5.4.0
 - FireGento_Pdf
 - Iways_PayPalPlus
@@ -25,38 +26,31 @@ Requirements
 - Mage_Payment
 - Mage_Sales
 
-Compatibility
--------------
+## Compatibility
+
 - Magento >= 1.6
 
-Installation Instructions
--------------------------
+## Installation Instructions
+
 1. Copy all the src files into your document root.
 2. Clear the cache.
 
-Uninstallation
---------------
+## Uninstallation
+
 1. Remove all extension files from your Magento installation.
 
-Support
--------
+## Support
+
 If you have any issues with this extension, open an issue on [GitHub](https://github.com/firegento/firegento-pdf-paypalplus/issues).
 
-Contribution
-------------
+## Contribution
+
 Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests). In order to contribute to the latest code, please checkout the `development` branch after cloning your fork.
 
-Developer
----------
+## Developer
+
 FireGento team and all other [contributors](https://github.com/firegento/firegento-pdf-paypalplus/contributors)
 
-License
--------
-[GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
-
-Copyright
----------
-(c) 2016 FireGento Team
 
 ## Contributors ✨
 
@@ -78,3 +72,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+[GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
+
+## Copyright
+
+(c) 2016 FireGento Team
